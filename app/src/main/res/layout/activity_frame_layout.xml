@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameLayoutActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="frame title"
+            android:gravity="center"
+            android:text="Frame Layout"
+            android:textColor="#C63A3A"
+            android:textSize="32sp" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_column="0"
+            android:layout_gravity="top|left"
+            android:layout_margin="50dp"
+            android:contentDescription="frame"
+            android:src="@drawable/jay" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_column="0"
+            android:layout_gravity="top|center"
+            android:layout_margin="50dp"
+            android:contentDescription="frame"
+            android:src="@drawable/vole" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_column="0"
+            android:layout_gravity="top|right"
+            android:layout_margin="50dp"
+            android:contentDescription="frame"
+            android:src="@drawable/vole" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_column="0"
+            android:layout_gravity="center|left"
+            android:layout_margin="50dp"
+            android:contentDescription="frame"
+            android:src="@drawable/jes" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_margin="60dp"
+            android:contentDescription="try"
+            android:src="@drawable/but" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_column="0"
+            android:layout_gravity="center|right"
+            android:layout_margin="50dp"
+            android:contentDescription="frame"
+            android:src="@drawable/vole" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_column="0"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="50dp"
+            android:contentDescription="frame"
+            android:src="@drawable/vole" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_column="0"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="50dp"
+            android:contentDescription="frame"
+            android:src="@drawable/vole" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_column="0"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="50dp"
+            android:contentDescription="frame"
+            android:src="@drawable/vole" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

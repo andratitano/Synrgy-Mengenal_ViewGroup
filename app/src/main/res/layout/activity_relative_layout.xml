@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Relative Layout"
+        android:textColor="#FF9800"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_one"
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_below="@+id/tv_title"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:contentDescription="rel"
+        android:src="@drawable/vole" />
+
+    <TextView
+        android:id="@+id/tv_text1"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_title"
+        android:layout_alignTop="@id/iv_one"
+        android:layout_alignBottom="@id/iv_one"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="68dp"
+        android:layout_toEndOf="@+id/iv_one"
+        android:gravity="center"
+        android:text="Striker"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/iv_two"
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_below="@+id/iv_one"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:contentDescription="rel"
+        android:src="@drawable/jes" />
+
+
+
+    <TextView
+        android:id="@+id/tv_text2"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_text1"
+        android:layout_alignTop="@id/iv_two"
+        android:layout_alignEnd="@id/iv_two"
+        android:layout_alignBottom="@id/iv_two"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="68dp"
+        android:layout_toEndOf="@+id/iv_two"
+        android:gravity="center"
+        android:text="Bek"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/iv_three"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_below="@+id/iv_two"
+        android:layout_gravity="center"
+        android:layout_marginTop="33dp"
+        android:contentDescription="rel"
+        android:src="@drawable/beg" />
+
+    <TextView
+        android:id="@+id/tv_text3"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/iv_three"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@id/iv_three"
+        android:layout_alignBottom="@id/iv_three"
+        android:layout_gravity="center"
+        android:layout_below="@+id/iv_two"
+        android:gravity="center"
+        android:text="Deskripsi"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>
