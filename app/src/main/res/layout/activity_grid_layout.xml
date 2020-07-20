@@ -64,12 +64,10 @@
 
 
     <ImageButton
-        android:id="@+id/ib_home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnSpan="2"
         android:layout_gravity="center"
-        android:background="@drawable/ic_launcher_background"
         android:src="@drawable/but"
         android:contentDescription="@string/app_name"/>
 
